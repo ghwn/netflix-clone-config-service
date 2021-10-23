@@ -1,0 +1,11 @@
+encrypt:
+  key-store:
+    location: file://${user.home}/Workspace/netflix-clone/keystore/netflix-clone.jks
+    password: NetflixP@ssw0rd
+    alias: netflix-clone
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: config-service
