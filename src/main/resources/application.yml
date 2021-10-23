@@ -11,3 +11,8 @@ spring:
         git:
           uri: file:///Users/jihwanlim/Workspace/netflix-clone/configs
           default-label: main
+
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
